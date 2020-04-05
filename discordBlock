@@ -1,0 +1,15 @@
+
+/*
+// Script by Szymon Walkusz
+// Youtube: youtube.com/vlakoosh
+*/
+
+
+(function removeMessage(){
+
+	document.querySelectorAll('.message-group-blocked')
+	.forEach(div => div.setAttribute("style", "display: none;"));
+
+	setTimeout(removeMessage,300);
+  
+})();
